@@ -42,6 +42,6 @@ if __name__ == '__main__':
     ip = sys.argv[2]
     # 如果需要登录的目标系统，需要添加cookie
 	headers={
-    'Cookie':'JSESSIONID=975E4122EFD3EA7F166A40E6628BBC62.s1'
+		'Cookie':'JSESSIONID=975E4122EFD3EA7F166A40E6628BBC62.s1'
 	}
 	main(url,ip,headers=headers)
